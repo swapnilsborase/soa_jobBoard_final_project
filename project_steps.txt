@@ -1,0 +1,22 @@
+```Process to run the project```
+
+1. install all the dependencies to your machine / vs code. use this in terminal -> pip install -r requirements.txt
+2. run the code - python run.py
+3. Open the url provided by the system in any browser with [url]/apidocs
+4. use above json structure to use method get->register
+
+{
+  "address": {
+    "city": "New York",
+    "country": "USA",
+    "post_code": "10001",
+    "state": "NY",
+    "street": "123 Broadway"
+  },
+  "email": "jd@example.com",
+  "first_name": "John",
+  "last_name": "Doe",
+  "mobile_number": "+1234567890",
+  "password": "Admin1234",
+  "user_type": "JobSeeker"
+}
