@@ -1,0 +1,8 @@
+Flask
+pymongo
+flask_pymongo
+pydantic
+flask-restx
+Flasgger
+gunicorn==20.1.0
+pydantic[email]
