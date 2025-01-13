@@ -31,4 +31,4 @@ Steps:
 }
 
 7. After the successful execute, you will receive '200' code, which means your project is working.
-8. for GET / POST authentication - Provide users email and Paswword, so it can fetch all the information from database.
+8. for GET / POST authentication - Provide users email and Paswword, so it can fetch all the information from database and make user is already present in DB.
