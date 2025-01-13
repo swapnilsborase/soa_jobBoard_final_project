@@ -12,7 +12,7 @@ Steps:
 3. Install the MongoDb and activate the connection.
 4. run this code in VS to start the project - python run.py
 5. Open the url provided by the system in any browser with [url]/apidocs
-6. use above json structure to use method get->register
+6. use above json structure to use method POST->register
 
 {
   "address": {
