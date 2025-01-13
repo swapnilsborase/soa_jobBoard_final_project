@@ -1,9 +1,18 @@
 ```Process to run the project```
 
-1. install all the dependencies to your machine / vs code. use this in terminal -> pip install -r requirements.txt
-2. run the code - python run.py
-3. Open the url provided by the system in any browser with [url]/apidocs
-4. use above json structure to use method get->register
+Prerequisite / software Downloads:
+1. Python [https://www.python.org/downloads/]
+2. MongoDb Community Server [https://www.mongodb.com/try/download/community]
+3. Visual studio 2022 [https://visualstudio.microsoft.com/vs/community/]
+	3.1 After completion of VS download, download Python Development and Azure Development inside VS.
+
+Steps:
+1. Open Project inside VS and wait for complete load of project.
+2. Open terminal and install all the dependencies to your machine / vs code. use this in terminal -> pip install -r requirements.txt
+3. Install the MongoDb and activate the connection.
+4. run this code in VS to start the project - python run.py
+5. Open the url provided by the system in any browser with [url]/apidocs
+6. use above json structure to use method get->register
 
 {
   "address": {
@@ -20,3 +29,6 @@
   "password": "Admin1234",
   "user_type": "JobSeeker"
 }
+
+7. After the successful execute, you will receive '200' code, which means your project is working.
+8. for GET / POST authentication - Provide users email and Paswword, so it can fetch all the information from database.
